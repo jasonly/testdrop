@@ -1,0 +1,13 @@
+name: Corgi
+type: theme
+core: '8.x'
+
+# # Add a CSS file:
+# stylesheets:
+#   all:
+#   - css/style.css
+
+# regions:
+#   content: 'Content'
+#   sidebar: 'Sidebar'
+#   footer: 'Footer'

@@ -1,0 +1,58 @@
+$background: #ffffff;
+$current-line: #efefef;
+$selection: #d6d6d6;
+$foreground: #4d4d4c;
+$comment: #8e908c;
+$aqua: #3e999f;
+$red: #c82829;
+$orange: #f5871f;
+$yellow: #eab700;
+$green: #718c00;
+$blue: #4271ae;
+$purple: #8959a8;
+
+body {
+  font: 100%, Helvetica, sans-serif;
+  background-color: #4d4d4c;
+}
+
+.layout-container {
+  background-color: orange;
+}
+
+section {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  &.center-content {
+    justify-content: center;
+  }
+
+  &.v-center {
+    align-items: center;
+  }
+}
+
+button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: coral;
+}
+
+button:active {
+  background-color: yellow;
+  transform: translateY(2px);
+}
